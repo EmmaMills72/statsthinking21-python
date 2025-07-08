@@ -340,7 +340,7 @@ my_sin_values
 # %% [markdown]
 # ## Dictionaries
 # There is another kind of variable in Python that is very useful, which is known as a *dictionary*.  A dictionary is like a container that 
-# stores values that are associated with particular *keys*.  A dictionary is created using squiggly brackets; each entry must include a key and a value (which can be any kind of variable, including another dictionary), separated by a color.  For example, let's say that we wanted to store the ages of three people:
+# stores values that are associated with particular *keys*.  A dictionary is created using squiggly brackets; each entry must include a key and a value (which can be any kind of variable, including another dictionary), separated by a colon.  For example, let's say that we wanted to store the ages of three people:
 
 # %%
 ages = {'Lisa': 23, 'Angela': 25, 'Monique': 27}
