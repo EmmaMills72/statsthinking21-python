@@ -179,7 +179,7 @@ nhanes_data['GeneralHealthConditionFixed'] = nhanes_data['GeneralHealthCondition
 nhanes_data['GeneralHealthConditionFixed'].unique()
 
 # %% [markdown]
-# Now let's look at a more complex example.  Let's say that we want to know who is currently a smokker in the NHANES sample.  If we look more closely at the [details of the smoking questionnaire](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/SMQ_J.htm), we will see that not all individuals got the same questions; for example, if a person said that they had not smoked more than 100 cigarettes in their life (recorded in the `SmokedAtLeast100CigarettesInLife` variable), then they were not asked the question about whether they currently smoked cigarettes (stored as `DoYouNowSmokeCigarettes`).  We can see this in the number of respondents to each question:
+# Now let's look at a more complex example.  Let's say that we want to know who is currently a smoker in the NHANES sample.  If we look more closely at the [details of the smoking questionnaire](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/SMQ_J.htm), we will see that not all individuals got the same questions; for example, if a person said that they had not smoked more than 100 cigarettes in their life (recorded in the `SmokedAtLeast100CigarettesInLife` variable), then they were not asked the question about whether they currently smoked cigarettes (stored as `DoYouNowSmokeCigarettes`).  We can see this in the number of respondents to each question:
 
 # %%
 print(nhanes_data['SmokedAtLeast100CigarettesInLife'].value_counts())
